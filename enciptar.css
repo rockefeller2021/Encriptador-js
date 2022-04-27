@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    font:20px 'arial', sans-serif;
+    color: black;
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+    background: rgba(0, 128, 0, 0.3) ;
+}
+
+.titulo{
+
+    text-align: center;
+    margin: 20px 20px;
+    background-color: rgb(249, 249, 248);
+
+
+}
+
+.pie{
+
+   font-family:arial;
+   font-size:15px;
+   color:black;
+   padding: 1em; 
+
+}
+
+footer{
+
+   text-align: center;  
+   width: 100%;
+   height: 10%;
+   bottom: 0;
+   position:fixed;
+   background-color: rgb(249, 249, 248);
+
+}
+
+
+.contenedor{
+
+    height: 600px ;
+    width: 1300px;   
+
+}
+
+
+.contenedor:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.encriptador{
+    border: 10px radius;
+    background-color:#34ffee;
+    text-align: center;
+    margin: 10px 70px;
+    padding-top:30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    float: left;
+    width: 660px;
+    height: 450px;
+    display: inline-block;
+
+}
+
+.desencriptador{
+
+  border: 10px radiusk;
+  background-color:#F2F5F7;
+  text-align: center;
+  margin: 10px 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  float: right;
+  width: 430px;
+  height: 450px;
+  display: inline-block;
+
+
+}
+
+.ingreso{
+
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    box-sizing: border-box;
+
+
+}
+
+
+.salida{
+
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    
+
+    box-sizing: border-box;
+
+}
+
+label{
+
+
+   padding: 5px 5px 5px 0;
+   display: inline-block;
+
+
+
+}
+
+input[type=text], select, textarea {
+  width: 95%;
+  height: 300px;
+  padding: 12px;
+  border: 1px radius #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.btn{
+
+  background-color: #04AA1D;
+  border: radius;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+

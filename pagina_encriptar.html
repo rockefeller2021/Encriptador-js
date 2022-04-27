@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Creando una pagina de encriptar</title>
+	<link rel="stylesheet" href="enciptar.css">
+
+</head>
+<body>
+
+	<h1 class = "titulo">Nuestro encriptador</h1>
+
+	
+
+	<div class = "contenedor">
+		<div class = "encriptador">	
+			<form action="">
+				<textarea id="textoEncriptado" name="subject" onpaste="pegar()" placeholder="Ingrese su texto aquí...." ></textarea> <br>
+				<label for="input-texto" style = >Solo letras minúsculas, sin acento</label><br>
+				<input class="btn" type="button" value="Encriptar!" id="btn-encriptar">
+				<input class="btn" type="button" value="Desencriptar!" id="btn-desencriptar">
+			</form>
+		</div>
+
+		<div class = "desencriptador">
+			<textarea class="txtSalida" name="txtSalida" placeholder="texto encriptado"></textarea> <br>
+			<label for="input-texto">Texto encriptado</label><br>
+			<input class="btn" type="button" value="copiar" id="btn-copy">
+
+		</div>
+	</div>
+
+	<footer>   
+		<p class="pie">Diseñado por Rafael Alvarado &copy; 2022 Cali, Colombia ORACLE-ONE  ALURA</p>
+
+	</footer>
+
+
+	<script src="encriptar.js"></script>
+	
+
+
+
+
+</body>
+</html>
+
+
+
